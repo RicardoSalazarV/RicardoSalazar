@@ -4,7 +4,7 @@ from PIL import Image
 # ---------------------------
 # Configuración General
 # ---------------------------
-st.set_page_config(page_title="Portafolio de Ricardo Salazar", layout="wide")
+st.set_page_config(page_title="Ricardo Salazar", layout="wide")
 
 # Estilos personalizados para las pestañas
 st.markdown("""
@@ -56,46 +56,42 @@ st.markdown("""
 language = st.sidebar.selectbox("🌐 Language / Idioma", ["Español", "English"])
 
 # ---------------------------
-# Navegación con tabs en lugar de radio buttons
+# Navegación con tabs
 # ---------------------------
 def render_tabs():
     if language == "Español":
         tabs = st.tabs([
-            "🏠 Inicio", 
+         
             "🙋‍♂️ Sobre mí", 
             "🧠 Tech Stack", 
             "📊 Proyectos", 
-            "📄 CV & 📬 Contacto"
+            "📄 CV & Contacto📬"
         ])
         
         with tabs[0]:
             header_es()
         with tabs[1]:
-            about_me_es()
-        with tabs[2]:
             tech_stack_es()
-        with tabs[3]:
+        with tabs[2]:
             proyectos_es()
-        with tabs[4]:
+        with tabs[3]:
             contacto_es()
     else:
         tabs = st.tabs([
-            "🏠 Home", 
+     
             "🙋‍♂️ About Me", 
             "🧠 Tech Stack", 
             "📊 Projects", 
-            "📄 Resume & 📬 Contact"
+            "📄 Resume & Contact📬"
         ])
         
         with tabs[0]:
             header_en()
         with tabs[1]:
-            about_me_en()
-        with tabs[2]:
             tech_stack_en()
-        with tabs[3]:
+        with tabs[2]:
             projects_en()
-        with tabs[4]:
+        with tabs[3]:
             contact_en()
 
 # ---------------------------
@@ -103,7 +99,7 @@ def render_tabs():
 # ---------------------------
 def header_es():
     st.markdown("<h1>👨‍💻 Ricardo Salazar Vázquez</h1>", unsafe_allow_html=True)
-    st.markdown("<h3 class='subtitle'>Ingeniero en Desarrollo de Software | Data Scientist en formación</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 class='subtitle'>Ingeniero en Desarrollo de Software | Data Scientist</h3>", unsafe_allow_html=True)
     
     # Enlaces con iconos más grandes
     col1, col2, col3 = st.columns([1,1,1])
@@ -113,19 +109,19 @@ def header_es():
         st.markdown("<div style='text-align: center'><span class='big-emoji'>💻</span> <a href='https://github.com/RicardoSalazarV'>GitHub</a></div>", unsafe_allow_html=True)
     with col3:
         st.markdown("<div style='text-align: center'><span class='big-emoji'>📧</span> ricardo.sv99@gmail.com</div>", unsafe_allow_html=True)
-
-def about_me_es():
     st.markdown("<h2><span class='big-emoji'>🙋‍♂️</span> Sobre Mí</h2>", unsafe_allow_html=True)
     st.markdown("""
-Soy un ingeniero en formación apasionado por los datos, el desarrollo de software y la tecnología aplicada a resolver problemas reales. Actualmente estudio Ingeniería en Desarrollo de Software mientras curso un bootcamp en Ciencia de Datos con TripleTen.
+Soy un ingeniero en formación apasionado por los datos, el desarrollo de software y la tecnología aplicada a resolver problemas reales. Actualmente estudio Ingeniería en Desarrollo de Software,cuento con preparacion en Ciencia de Datos con TripleTen.
 
 Me especializo en **Python**, análisis de datos, **machine learning**, y visualización, además de tener experiencia en desarrollo de aplicaciones con **.NET**, **Java (Android Studio)** y **Access**.
 
 > 🧠 *"Data is the new oil, and I'm here to refine it."*
 
-🎵 *Fun fact:* Amante de la música frustrado, nunca afinado... pero siempre codificando.
+🎵 *Fun fact:* Amante de la música frustrado, nunca afinado...  siempre codificando.
 """)
 
+
+    
 def tech_stack_es():
     st.markdown("<h2><span class='big-emoji'>🧠</span> Tech Stack</h2>", unsafe_allow_html=True)
     col1, col2 = st.columns(2)
@@ -219,18 +215,19 @@ def header_en():
         st.markdown("<div style='text-align: center'><span class='big-emoji'>💻</span> <a href='https://github.com/RicardoSalazarV'>GitHub</a></div>", unsafe_allow_html=True)
     with col3:
         st.markdown("<div style='text-align: center'><span class='big-emoji'>📧</span> ricardo.sv99@gmail.com</div>", unsafe_allow_html=True)
-
-def about_me_en():
     st.markdown("<h2><span class='big-emoji'>🙋‍♂️</span> About Me</h2>", unsafe_allow_html=True)
     st.markdown("""
-I'm a software engineer in training, passionate about data, intelligent systems, and building tech that solves real-world problems. I'm currently studying Software Development Engineering and enrolled in a Data Science bootcamp by TripleTen.
+I'm a software engineer in training, passionate about data, software development, and technology applied to solving real-world problems. I'm currently studying Software Development Engineering and have completed a Data Science certification with TripleTen.
 
-I specialize in **Python**, **data analysis**, **machine learning**, and **data visualization**. I've also developed practical tools using **.NET Framework**, **Java (Android)**, and **Microsoft Access**.
+I specialize in **Python**, data analysis, **machine learning**, and visualization, and I also have experience developing applications with **.NET**, **Java (Android Studio)**, and **Access**.
 
 > 🧠 *"Data is the new oil, and I'm here to refine it."*
 
-🎵 *Fun fact:* I'm a frustrated music enthusiast—never in tune, always in sync with the code.
+🎵 *Fun fact:* A frustrated music lover, never in tune… always coding.
 """)
+
+
+
 
 def tech_stack_en():
     st.markdown("<h2><span class='big-emoji'>🧠</span> Tech Stack</h2>", unsafe_allow_html=True)
