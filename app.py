@@ -301,7 +301,7 @@ def contact_en():
         """)
         st.markdown("""
         <div style="text-align: center; margin: 20px 0;">
-            <a href="https://drive.google.com/file/d/1Cw5d56d4yXXSHv7O_dsdr9y572iNIJqG/view" target="_blank" style="background-color: #4e89ae; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold;">
+            <a href="https://drive.google.com/file/d/1STIPeBneqonb6bnIj4sx8TooqO3BQxMz/view?usp=drivesdk" target="_blank" style="background-color: #4e89ae; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold;">
                 <span class="big-emoji">📥</span> Download Resume PDF
             </a>
         </div>
