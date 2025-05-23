@@ -123,25 +123,44 @@ Me especializo en **Python**, análisis de datos, **machine learning**, y visual
 
     
 def tech_stack_es():
-    st.markdown("<h2><span class='big-emoji'>🧠</span> Tech Stack</h2>", unsafe_allow_html=True)
+    st.markdown("<h2><span class='big-emoji'>🧠</span> Tech Stack de Data Scientist</h2>", unsafe_allow_html=True)
     col1, col2 = st.columns(2)
 
     with col1:
-        st.markdown("<h3><span class='big-emoji'>💻</span> Lenguajes</h3>", unsafe_allow_html=True)
-        st.markdown("- Python (Avanzado)\n- Java (Intermedio, apps móviles con Android Studio)\n- SQL (Intermedio)\n- C# (Intermedio, aplicaciones con .NET)\n- JavaScript\n- Visual Basic")
+        st.markdown("<h3><span class='big-emoji'>🔬</span> Ciencia de Datos & Machine Learning</h3>", unsafe_allow_html=True)
+        st.markdown("""
+        - **Lenguajes Clave:** Python (Avanzado), SQL (Avanzado)
+        - **Análisis y Manipulación:** Pandas, NumPy
+        - **Machine Learning:** Scikit-learn (Regresión, Clasificación, Clustering)
+        - **Deep Learning & NLP:** TensorFlow, Keras, PyTorch, BERT / Transformers
+        - **Visualización de Datos:** Matplotlib, Seaborn, Plotly
+        """)
 
-        st.markdown("<h3><span class='big-emoji'>📊</span> Visualización</h3>", unsafe_allow_html=True)
-        st.markdown("- Matplotlib\n- Seaborn\n- Plotly\n- Tableau")
-
-        st.markdown("<h3><span class='big-emoji'>🧰</span> Otros</h3>", unsafe_allow_html=True)
-        st.markdown("- GitHub\n- Microsoft Access\n- Canva\n- Adobe Creative Cloud")
+        st.markdown("<h3><span class='big-emoji'>⚙️</span> Otros Lenguajes y Desarrollo</h3>", unsafe_allow_html=True)
+        st.markdown("""
+        - Java (Intermedio - Android Studio)
+        - C# (Intermedio - .NET Framework)
+        - JavaScript / Node.js (Básico/Intermedio)
+        - Visual Basic
+        """)
 
     with col2:
-        st.markdown("<h3><span class='big-emoji'>📚</span> Librerías</h3>", unsafe_allow_html=True)
-        st.markdown("- Pandas\n- NumPy\n- Scikit-learn\n- TensorFlow\n- PyTorch")
-
-        st.markdown("<h3><span class='big-emoji'>🏗️</span> Frameworks</h3>", unsafe_allow_html=True)
-        st.markdown("- .NET Framework\n- Streamlit\n- Android SDK (Java)\n- SQLite\n- REST API")
+        st.markdown("<h3><span class='big-emoji'>🛠️</span> Herramientas, Nube y Despliegue</h3>", unsafe_allow_html=True)
+        st.markdown("""
+        - **Bases de Datos:**  (Experiencia con SQLite, PostgreSQL ,Mongo ,Firestone)
+        - **BI & Dashboards:** Tableau, Streamlit
+        - **Nube:** Azure, Google Cloud Platform (GCP)
+        - **Despliegue:** Docker
+        - **Control de Versiones:** Git, GitHub
+        - **Entornos:** Jupyter Notebooks / Lab, Google Colab
+        - **APIs:** Consumo y entendimiento de REST APIs
+        """)
+        
+        st.markdown("<h3><span class='big-emoji'>🎨</span> Diseño y Otros</h3>", unsafe_allow_html=True)
+        st.markdown("""
+        - Microsoft Access
+        - Canva / Adobe Creative Cloud (Básico)
+        """)
 
 def proyectos_es():
     st.markdown("<h2><span class='big-emoji'>📊</span> Proyectos Destacados</h2>", unsafe_allow_html=True)
@@ -230,25 +249,44 @@ I specialize in **Python**, data analysis, **machine learning**, and visualizati
 
 
 def tech_stack_en():
-    st.markdown("<h2><span class='big-emoji'>🧠</span> Tech Stack</h2>", unsafe_allow_html=True)
+    st.markdown("<h2><span class='big-emoji'>🧠</span> Data Scientist Tech Stack</h2>", unsafe_allow_html=True)
     col1, col2 = st.columns(2)
 
     with col1:
-        st.markdown("<h3><span class='big-emoji'>💻</span> Languages</h3>", unsafe_allow_html=True)
-        st.markdown("- Python (Advanced)\n- Java (Intermediate – Android Studio)\n- SQL (Intermediate)\n- C# (.NET Desktop)\n- JavaScript\n- Visual Basic")
+        st.markdown("<h3><span class='big-emoji'>🔬</span> Data Science & Machine Learning</h3>", unsafe_allow_html=True)
+        st.markdown("""
+        - **Key Languages:** Python (Advanced), SQL (Advanced)
+        - **Analysis & Manipulation:** Pandas, NumPy
+        - **Machine Learning:** Scikit-learn (Regression, Classification, Clustering)
+        - **Deep Learning & NLP:** TensorFlow, Keras, PyTorch, BERT / Transformers
+        - **Data Visualization:** Matplotlib, Seaborn, Plotly
+        """)
 
-        st.markdown("<h3><span class='big-emoji'>📊</span> Visualization</h3>", unsafe_allow_html=True)
-        st.markdown("- Matplotlib\n- Seaborn\n- Plotly\n- Tableau")
-
-        st.markdown("<h3><span class='big-emoji'>🧰</span> Tools</h3>", unsafe_allow_html=True)
-        st.markdown("- GitHub\n- Microsoft Access\n- Canva\n- Adobe Creative Cloud")
+        st.markdown("<h3><span class='big-emoji'>⚙️</span> Other Programming & Development</h3>", unsafe_allow_html=True)
+        st.markdown("""
+        - Java (Intermediate - Android Studio)
+        - C# (Intermediate - .NET Framework)
+        - JavaScript / Node.js (Basic/Intermediate)
+        - Visual Basic
+        """)
 
     with col2:
-        st.markdown("<h3><span class='big-emoji'>📚</span> Libraries</h3>", unsafe_allow_html=True)
-        st.markdown("- Pandas\n- NumPy\n- Scikit-learn\n- TensorFlow\n- PyTorch")
+        st.markdown("<h3><span class='big-emoji'>🛠️</span> Tools, Cloud & Deployment</h3>", unsafe_allow_html=True)
+        st.markdown("""
+        - **Databases:**  (Experience with SQLite, PostgreSQL, Mongo, Firestone)
+        - **BI & Dashboards:** Tableau, Streamlit
+        - **Cloud Platforms:** Azure, Google Cloud Platform (GCP)
+        - **Deployment:** Docker
+        - **Version Control:** Git, GitHub
+        - **Environments:** Jupyter Notebooks / Lab, Google Colab
+        - **APIs:** REST API Consumption & Understanding
+        """)
 
-        st.markdown("<h3><span class='big-emoji'>🏗️</span> Frameworks</h3>", unsafe_allow_html=True)
-        st.markdown("- .NET Framework\n- Streamlit\n- Android SDK (Java)\n- SQLite\n- REST API")
+        st.markdown("<h3><span class='big-emoji'>🎨</span> Design & Others</h3>", unsafe_allow_html=True)
+        st.markdown("""
+        - Microsoft Access
+        - Canva / Adobe Creative Cloud (Basic)
+        """)
 
 def projects_en():
     st.markdown("<h2><span class='big-emoji'>📊</span> Featured Projects</h2>", unsafe_allow_html=True)
